@@ -7,21 +7,25 @@
 	<link rel="stylesheet" type="text/css" href="./resources/css/style.css">
   </head>
   <body>
-
+  <div class="siteContainer">
+  <div class="logoContainer">
   <div class="logo">
   <img src="./resources/img/logo.png">
   <h4>SECRET AGENT SUPPLY INC</h4>
   </div>
+  </div>
   <div class="banner">
     <div class="new">
-	  <div class="newText">
+	  <!--<div class="newText">-->
 	  <h4>NEW ARRIVAL</h4>
 	  <h2>SPORT BIKES AND MOTOR CYCLES</h2>
-	  </div>
+	  <!--</div>-->
 	</div>
   </div>
   <div class="stuff">
-    <nav>
+    <div class="stuffInStuff">
+	<nav>
+	  <div class="smallVersion" color="white"><p>Menu</p></div>
 	  <ul>
 	    <li>Eyewear</li>
 		<li>Apparel</li>
@@ -31,28 +35,39 @@
 		<li>Contacts</li>
 	  </ul>
 	</nav>
+	</div>
   </div>
+  
   <div class="gallery">
-    <div class="products" id="pen">
-	  <img src="./resources/img/pen.png">
-	  <p>Exploding pen</p>
-	</div>
+    <div class="products">
+	  <div class="pix"><img src="./resources/img/pen.png"></div>
+	  <div class="words"><center><p>Exploding pen</p></center></div>
+	 </div>
 	<div class="products" id="watch">
-	  <img src="./resources/img/watch.png">
-	  <p>Cellular watch</p>
+	  <div class="pix"><img src="./resources/img/watch.png"></div>
+      <div class="words"><center><p>Cellular watch</p></center></div>
 	</div>
-	<div class="products" id="glasses">
-	  <img src="./resources/img/glasses.png">
-	  <p>Thermal glasses</p>
+	<div class="products" id="specs">
+	  <div class="pix"><img id="glasses" src="./resources/img/glasses.png"></div>
+	  <div class="words"><center><p>Thermal glasses</p></center></div>
 	</div>
-    <div class="locationHours">
-	  <p>Location</P>
-	  <p id="detail">-47.346436, 84.32354</p>
-	</div> 
-    <div class="locationHours">
-	  <p>Hours</P>
-	  <p id="detail">0800 - 1800</p>
-	</div> 	
-  </div>
+	</div>
+	<div class="contact">
+      <div class="location">
+	    <p id="place">Location</P>
+	    <p id="detail">-47.346436, 84.32354</p>
+	  </div> 
+      <div class="hours">
+	    <p id="time">Hours</P>
+	    <p id="detail">0800 - 1800</p>
+	  </div>
+    </div>
+	<div class="footer">
+	<div class="insidefoot">
+	<div class="copyright">Copyright Sectret Agent Supply Inc.
+	</div>
+	</div>
+	</div>
+    </div> 	
   </body>
 </html>
